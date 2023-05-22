@@ -6,7 +6,7 @@ Esse projeto é uma lista de Pokémons, e é um projeto que foi passado num even
 | -------------  | --- |
 | :sparkles: Nome        | **Lista Pokémon - Semana zero ao programador contrado do Dev em dobro**
 | :label: Tecnologias | html, css, javascript
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://lista-pokemon-five.vercel.app/
 | :fire: Desafio     | https://www.instagram.com/p/CsBcfrGAxKh/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
