@@ -1,0 +1,216 @@
+:root {
+  --font: "Poppins", sans-serif;
+  --bg-color: #5e5b5bad;
+  --color: #333333;
+  --card-color: #c7c8c9;
+  --card-hover: #96d9d6;
+}
+
+.dark-mode {
+  --bg-color: #212121;
+  --color: #f5f5f5;
+  --card-color: #a8a8a8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--color);
+  font-family: var(--font);
+  margin: 0 auto;
+  max-width: 1280px;
+  transition: 0.2s ease-in-out;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+header .logo,
+header .imagem-botao {
+  width: 30px;
+  transition: 0.2 ease-in-out;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+main {
+  padding: 25px;
+}
+
+main .lista-pokemon {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main .cartao-pokemon {
+  align-items: center;
+  background-color: var(--card-color);
+  border: 3px solid var(--color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+  width: 200px;
+}
+
+.cartao-pokemon .informacoes {
+  border: 1px solid var(--color);
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 5px;
+  text-transform: uppercase;
+}
+main .cartao-pokemon .gif {
+  width: 90px;
+  height: 90px;
+}
+
+.cartao-pokemon .tipos {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-transform: uppercase;
+}
+
+.cartao-pokemon .tipo {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cartao-pokemon .descricao {
+  font-size: 14px;
+  max-height: 80px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+/* Hover dos Cartoes */
+
+.cartao-grama:hover {
+  background-color: #b5d8a0;
+  border: 3px solid #7ac74c;
+}
+
+.cartao-fogo:hover {
+  background-color: #e9a877;
+  border: 3px solid #ee8130;
+}
+
+.cartao-agua:hover {
+  background-color: #8baaee;
+  border: 3px solid #6390f0;
+}
+
+.cartao-inseto:hover {
+  background-color: #b9c56a;
+  border: 3px solid #a6b91a;
+}
+
+.cartao-voador:hover {
+  background-color: #f3cdcd;
+  border: 3px solid #e0d2d2;
+}
+
+.cartao-normal:hover {
+  background-color: #f1dabe;
+  border: 3px solid #f7b76a;
+}
+
+.cartao-veneno:hover {
+  background-color: #caabcafb;
+  border: 3px solid #df67ddfb;
+}
+
+.cartao-eletrico:hover {
+  background-color: #ebda6f;
+  border: 3px solid #eed535;
+}
+
+.cartao-terra:hover {
+  background-color: #a59e71;
+  border: 3px solid #a79731;
+}
+
+.cartao-fada:hover {
+  background-color: #f86bce;
+  border: 3px solid #fdb9e9;
+}
+
+/* Cores dos Tipos */
+.grama {
+  background-color: #7ac74c;
+}
+.veneno {
+  background-color: #df67ddfb;
+}
+.fogo {
+  background-color: #ee8130;
+}
+.agua {
+  background-color: #6390f0;
+}
+.inseto {
+  background-color: #a6b91a;
+}
+
+.voador {
+  background-color: #e0d2d2;
+}
+
+.normal {
+  background-color: #f7b76a;
+}
+
+.eletrico {
+  background-color: #eed535;
+}
+
+.terra {
+  background-color: #a79731;
+}
+
+.fada {
+  background-color: #fdb9e9;
+}
+
+.lutador {
+  background-color: #d56723;
+}
+
+.psiquico {
+  background-color: #f366b9;
+}
+
+.pedra {
+  background-color: #a38c21;
+}
+
+.metal {
+  background-color: #9eb7b8;
+}
+
+.gelo {
+  background-color: #51c4e7;
+}
+
+.fantasma {
+  background-color: #7b62a3;
+}
+
+.dragao {
+  background-color: #bb692a;
+}
