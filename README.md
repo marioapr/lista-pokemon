@@ -1,6 +1,6 @@
 # Lista Pokémon - Semana zero ao programador contrado do Dev em dobro
 
-Esse projeto é uma lista de Pokémons, e é um projeto que foi passado num evento do ![Dev em dobro](https://www.instagram.com/devemdobro/), A Semana do Zero ao Programador Contratado.
+Esse projeto é uma lista de Pokémons, e é um projeto que foi passado num evento do Dev em dobro, A Semana do Zero ao Programador Contratado.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
